@@ -1,0 +1,63 @@
+const foods = [
+  {
+    id: "1",
+    name: "Phalaenopsis",
+    category: "Phala",
+    price: "8.30",
+    image: require("../assets/meatPizza.png"),
+    des: "The most common type of orchid in orchid gardens, comes in a variety of flower colors and shapes. They usually have large, beautiful flowers and are easy to grow.",
+  },
+  {
+    id: "2",
+    name: "Cymbidium",
+    category: "Cym",
+    price: "7.10",
+    image: require("../assets/cheesePizza.png"),
+    des: "Orchids have large flowers and live long. They often have many inflorescences and are wonderfully fragrant. Cymbidium prefers cool environments and needs relatively strong light.",
+  },
+  {
+    id: "3",
+    name: "Orchid Vanda",
+    category: "Vanda",
+    price: "5.10",
+    image: require("../assets/chickenBurger.png"),
+    des: "Vanda orchids have large, showy and long-lived flowers. They like strong, tropical light and need to be hung for good growing space.",
+  },
+  {
+    id: "4",
+    name: "Orchidée vanda",
+    category: "Vanda",
+    price: "9.55",
+    image: require("../assets/sushiMakizushi.png"),
+    des: "Vanda orchids have large, showy and long-lived flowers. They like strong, tropical light and need to be hung for good growing space.",
+  },
+];
+// {
+//   id: "5",
+//   name: "Meat Pizza",
+//   category: "Phala",
+//   price: "8.30",
+//   image: require("../assets/meatPizza.png"),
+// },
+// {
+//   id: "6",
+//   name: "Cheese Pizza",
+//   category: "Cym",
+//   price: "7.10",
+//   image: require("../assets/cheesePizza.png"),
+// },
+// {
+//   id: "7",
+//   name: "Chicken Burger",
+//   category: "Burger",
+//   price: "5.10",
+//   image: require("../assets/chickenBurger.png"),
+// },
+// {
+//   id: "8",
+//   name: "Sushi Makizushi",
+//   category: "Vanda",
+//   price: "9.55",
+//   image: require("../assets/sushiMakizushi.png"),
+// },
+export default foods;
